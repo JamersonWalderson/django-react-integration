@@ -1,8 +1,8 @@
+import Header from "./header";
+
 export const Home = () => {
     return(
-        <p>
-            Hello world!
-        </p>
+        <Header />
     )
 }
 
