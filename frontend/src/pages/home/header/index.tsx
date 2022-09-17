@@ -18,6 +18,18 @@ const Header = () => {
               icon={'fab fa-github-alt'}
               link={'https://github.com/JamersonWalderson'}
             />
+            <Contact 
+              icon={'fab fa-linkedin'}
+              link={'https://www.linkedin.com/in/jamerson-walderson-803618171/'}
+            />
+            <Contact 
+              icon={'fab fa-whatsapp'}
+              link={'https://api.whatsapp.com/send?phone=5582993419055&text=%C3%93la%2C%20estou%20entrando%20em%20contato%20atravez%20do%20link%20do%20seu%20blog.'}
+            />
+            <Contact
+              icon={'fas fa-envelope'}
+              link={'mailto:jamersonwalderson@gmail.com'}
+            />
           </Icons>
         </WhoAmI>
       </Container>
