@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import Background from '../../../assets/images/background.jpg'
+import { device } from "../../../utils/device";
 
 export const Container = styled.div`
   display: flex;
@@ -28,7 +29,7 @@ export const Title = styled.h1`
 `
 
 export const SubTitle = styled.h2`
-text-transform: uppercase;
+  text-transform: uppercase;
   margin-top: 0px;
   font-weight: 300;
   
@@ -36,11 +37,19 @@ text-transform: uppercase;
 
 export const WhoAmI = styled.div`
   display: flex;
+  flex-direction: column;
 `
 
 export const Descrition = styled.p`
   font-size: 1.25rem;
   font-weight: 300;
-  max-width: 50%;
+  @media ${device.laptop} {
+    max-width: 50%;
+  }
   
+`
+
+export const Icons = styled.div`
+  display: flex;
+  flex-direction: row;
 `
