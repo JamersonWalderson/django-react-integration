@@ -6,7 +6,7 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   height: 100vh;
-  background-image: url("/images/background.jpg");
+  background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url("/images/background.jpg");
   color: white;
   padding: 5rem;
 `
