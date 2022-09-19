@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import Background from '../../../assets/images/background.jpg'
 import { device } from "../../../utils/device";
 
 export const Container = styled.div`
