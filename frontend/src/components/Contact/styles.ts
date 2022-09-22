@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Icon = styled.i.attrs(props => ({
-    className: props.className
+    className: props.className,
 }))`
     font-size: 35px;
     border-radius: 50%;
