@@ -5,6 +5,8 @@ import { device } from "../../../../utils/device";
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
+  margin-top: 3rem!important;
+  margin-bottom: 3rem!important;
   @media ${device.laptop} {
     flex-direction: row;
   }
@@ -24,7 +26,9 @@ export const Image = styled.div`
   }
 `
 
-export const Name = styled.h4``
+export const Name = styled.h4`
+  font-size: calc(1.275rem + .3vw);
+`
 
 export const About = styled.p``
 

@@ -6,10 +6,10 @@ const Project = () => {
         <Container>
           <Description>
             <Name>
-              lorem ipsum
+              VITRINE VIRTUAL
             </Name>
             <About>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis repudiandae animi reiciendis esse molestias sint maiores debitis odio aliquam, nisi hic, similique porro. Ab, sequi veniam nobis repellendus corporis obcaecati.
+              Este trabalho foi meu TCC em Sistemas de informações. Vitrine virtual é um sistema de exposição de produtos, o sistema foi inteiramente desenvolvido utilizando o framework laravel em sua versão mais recente, e possui um painel administrativo com dois níveis de acesso para melhor administração do negócio. No repositório também é possivel encontrar um PDF com toda documentação do desenvolvimento.
             </About>
           </Description>
           <Image>
