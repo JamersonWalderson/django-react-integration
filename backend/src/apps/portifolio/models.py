@@ -3,7 +3,7 @@ from django.db import models
 class Profile(models.Model):
     name = models.CharField(max_length=255, blank=True, null=True, verbose_name="Nome")
     specialization = models.CharField(max_length=255, blank=True, null=True, verbose_name="Especialização")
-    history = models.CharField(max_length=255, blank=True, null=True, verbose_name="Quem sou eu")
+    history = models.TextField(blank=True, null=True, verbose_name="Quem sou eu")
 
     def __str__(self):
         return str(self.name)
