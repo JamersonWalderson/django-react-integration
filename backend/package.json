@@ -5,14 +5,10 @@
     "main": "manage.py",
     "scripts": {
       "start": "python3.10 manage.py runserver",
-      "test": "echo \"Error: no test specified\" && exit 1"
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "install": "python3.10 -m venv .venv && . .venv/bin/activate && pip install -r requirements.txt"
     },
     "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-      "Django": "^3.2.8",
-      "djangorestframework": "^3.12.4"
-    }
+    "author": "Jamerson Walderson"
   }
   

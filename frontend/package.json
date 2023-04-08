@@ -25,6 +25,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "install": "yarn install",
     "build": "react-scripts build",
     "mono": "rm -rf ..backend/build && react-scripts build && cp -r build ../backend/build && rm -rf build",
     "test": "react-scripts test",
