@@ -6,8 +6,8 @@
     "backend"
   ],
   "scripts": {
-    "start": "concurrently \"yarn workspace backend start\" \"yarn workspace frontend start\"",
-    "install": "yarn workspace backend run install && yarn workspace frontend run install",
+    "start": "concurrently \"yarn workspace backend start\" \"yarn workspace frontend build\" \"yarn workspace frontend start\"",
+    "install": "yarn workspace backend run install",
     "build": "yarn workspace frontend run build"
   },
   "dependencies": {},
